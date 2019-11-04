@@ -4,7 +4,8 @@
             "id": "stage-us",
             "displayName": "Stage US",
             "baseUrl": "https://stage.us-west-2.fusebit.io",
-            "accountId": "acc-9d9341ea356841ed",
+            "account": "acc-9d9341ea356841ed",
+            "subscription": "sub-ed9d9341ea356841",
             "oauth": {
                 "webAuthorizationUrl": "https://fusebit.auth0.com/authorize",
                 "webClientId": "hSgWIXmbluQMADuWhDnRTpWyKptJe6LB",
@@ -18,7 +19,8 @@
             "id": "stage-eu",
             "displayName": "Stage EU",
             "baseUrl": "https://stage.eu-north-1.fusebit.io",
-            "accountId": "acc-9d9341ea356841ed",
+            "account": "acc-28550c6a43ee4e10",
+            "subscription": "sub-77d91b1a326d4a6b",
             "oauth": {
                 "webAuthorizationUrl": "https://fusebit.auth0.com/authorize",
                 "webClientId": "hSgWIXmbluQMADuWhDnRTpWyKptJe6LB",
