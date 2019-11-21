@@ -1,0 +1,65 @@
+{
+    "profiles": [
+        {
+            "id": "stage-dev-us",
+            "displayName": "Stage Dev US",
+            "baseUrl": "https://stage.us-west-2.fusebit.io",
+            "account": "acc-9d9341ea356841ed",
+            "subscription": "sub-ed9d9341ea356841",
+            "oauth": {
+                "webAuthorizationUrl": "https://fusebit.auth0.com/authorize",
+                "webClientId": "hSgWIXmbluQMADuWhDnRTpWyKptJe6LB",
+                "webLogoutUrl": "https://fusebit.auth0.com/v2/logout?client_id=hSgWIXmbluQMADuWhDnRTpWyKptJe6LB&returnTo=https://portal-dev.fusebit.io",
+                "deviceAuthorizationUrl": "https://fusebit.auth0.com/oauth/device/code",
+                "deviceClientId": "VFOtrBCVHEm7I9UNv7rFwu1ID1hTEueF",
+                "tokenUrl": "https://fusebit.auth0.com/oauth/token"
+            }
+        },
+        {
+            "id": "stage-dev-eu",
+            "displayName": "Stage Dev EU",
+            "baseUrl": "https://stage.eu-north-1.fusebit.io",
+            "account": "acc-28550c6a43ee4e10",
+            "subscription": "sub-77d91b1a326d4a6b",
+            "oauth": {
+                "webAuthorizationUrl": "https://fusebit.auth0.com/authorize",
+                "webClientId": "hSgWIXmbluQMADuWhDnRTpWyKptJe6LB",
+                "webLogoutUrl": "https://fusebit.auth0.com/v2/logout?client_id=hSgWIXmbluQMADuWhDnRTpWyKptJe6LB&returnTo=https://portal-dev.fusebit.io",
+                "deviceAuthorizationUrl": "https://fusebit.auth0.com/oauth/device/code",
+                "deviceClientId": "VFOtrBCVHEm7I9UNv7rFwu1ID1hTEueF",
+                "tokenUrl": "https://fusebit.auth0.com/oauth/token"
+            }
+        },
+        {
+            "id": "local-dev-us",
+            "displayName": "Local Dev US",
+            "baseUrl": "https://stage.us-west-2.fusebit.io",
+            "account": "acc-9d9341ea356841ed",
+            "subscription": "sub-ed9d9341ea356841",
+            "oauth": {
+                "webAuthorizationUrl": "https://fusebit.auth0.com/authorize",
+                "webClientId": "hSgWIXmbluQMADuWhDnRTpWyKptJe6LB",
+                "webLogoutUrl": "https://fusebit.auth0.com/v2/logout?client_id=hSgWIXmbluQMADuWhDnRTpWyKptJe6LB&returnTo=http://localhost:3000",
+                "deviceAuthorizationUrl": "https://fusebit.auth0.com/oauth/device/code",
+                "deviceClientId": "VFOtrBCVHEm7I9UNv7rFwu1ID1hTEueF",
+                "tokenUrl": "https://fusebit.auth0.com/oauth/token"
+            }
+        },
+        {
+            "id": "local-dev-eu",
+            "displayName": "Local Dev EU",
+            "baseUrl": "https://stage.eu-north-1.fusebit.io",
+            "account": "acc-28550c6a43ee4e10",
+            "subscription": "sub-77d91b1a326d4a6b",
+            "oauth": {
+                "webAuthorizationUrl": "https://fusebit.auth0.com/authorize",
+                "webClientId": "hSgWIXmbluQMADuWhDnRTpWyKptJe6LB",
+                "webLogoutUrl": "https://fusebit.auth0.com/v2/logout?client_id=hSgWIXmbluQMADuWhDnRTpWyKptJe6LB&returnTo=http://localhost:3000",
+                "deviceAuthorizationUrl": "https://fusebit.auth0.com/oauth/device/code",
+                "deviceClientId": "VFOtrBCVHEm7I9UNv7rFwu1ID1hTEueF",
+                "tokenUrl": "https://fusebit.auth0.com/oauth/token"
+            }
+        }
+    ],
+    "currentProfile": "local-dev-us"
+}
