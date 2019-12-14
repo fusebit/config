@@ -3,6 +3,7 @@
         {
             "id": "stage-dev-us",
             "displayName": "Stage Dev US",
+            "icon": "https://cdn.fusebit.io/assets/images/us.png",
             "baseUrl": "https://stage.us-west-2.fusebit.io",
             "account": "acc-9d9341ea356841ed",
             "subscription": "sub-ed9d9341ea356841",
@@ -18,6 +19,7 @@
         {
             "id": "stage-dev-eu",
             "displayName": "Stage Dev EU",
+            "icon": "https://cdn.fusebit.io/assets/images/eu.png",
             "baseUrl": "https://stage.eu-north-1.fusebit.io",
             "account": "acc-28550c6a43ee4e10",
             "subscription": "sub-77d91b1a326d4a6b",
